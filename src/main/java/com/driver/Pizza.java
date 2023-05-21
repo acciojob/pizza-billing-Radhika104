@@ -60,7 +60,7 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        if(isBillGenerated) return;
+        if(isBillGenerated) return "";
         this.bill+="Total Price : "+this.getPrice()+" \n";
         isBillGenerated=true;
         return this.bill;
