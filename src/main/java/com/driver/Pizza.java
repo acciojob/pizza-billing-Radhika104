@@ -32,6 +32,7 @@ public class Pizza {
         // your code goes here
          this.price+=80;
          this.bill+="Extra Cheese Added : 80 \n";
+         extraCheeseAdded=true;
     }
 
     public void addExtraToppings(){
@@ -47,6 +48,7 @@ public class Pizza {
             this.price+=120;
             this.bill+="Extra Toppings Added : 120 \n";
         }
+        extraToppingAdded=true;
     }
 
     public void addTakeaway(){
